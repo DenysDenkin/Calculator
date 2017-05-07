@@ -1,0 +1,130 @@
+05-May-2017 19:04:19.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M20
+05-May-2017 19:04:19.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 12 2017 19:27:10 UTC
+05-May-2017 19:04:19.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+05-May-2017 19:04:19.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:04:19.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Denis\workspace\calculator\tomcat\conf\logging.properties
+05-May-2017 19:04:19.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2017 19:04:19.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2017 19:04:19.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2017 19:04:19.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:04:19.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:04:19.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Denis\workspace\calculator\tomcat\temp
+05-May-2017 19:04:19.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Kingston SSD Toolbox;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Denis\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache\maven\bin;C:\Users\Denis\AppData\Local\Microsoft\WindowsApps;;.]
+05-May-2017 19:04:19.759 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:04:19.801 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-May-2017 19:04:19.804 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:04:19.806 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-May-2017 19:04:19.806 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 446 ms
+05-May-2017 19:04:19.830 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-May-2017 19:04:19.830 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M20
+05-May-2017 19:04:19.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\docs]
+05-May-2017 19:04:20.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\docs] has finished in [177] ms
+05-May-2017 19:04:20.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\examples]
+05-May-2017 19:04:20.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\examples] has finished in [206] ms
+05-May-2017 19:04:20.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\host-manager]
+05-May-2017 19:04:20.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\host-manager] has finished in [16] ms
+05-May-2017 19:04:20.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\manager]
+05-May-2017 19:04:20.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\manager] has finished in [13] ms
+05-May-2017 19:04:20.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\ROOT]
+05-May-2017 19:04:20.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\ROOT] has finished in [13] ms
+05-May-2017 19:04:20.265 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:04:20.271 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:04:20.272 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 465 ms
+05-May-2017 19:05:17.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M20
+05-May-2017 19:05:17.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 12 2017 19:27:10 UTC
+05-May-2017 19:05:17.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+05-May-2017 19:05:17.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-May-2017 19:05:17.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-May-2017 19:05:17.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-May-2017 19:05:17.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+05-May-2017 19:05:17.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+05-May-2017 19:05:17.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-May-2017 19:05:17.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:05:17.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:05:17.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Denis\workspace\calculator\tomcat\conf\logging.properties
+05-May-2017 19:05:17.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2017 19:05:17.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2017 19:05:17.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2017 19:05:17.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:05:17.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:05:17.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Denis\workspace\calculator\tomcat\temp
+05-May-2017 19:05:17.127 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Kingston SSD Toolbox;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Denis\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache\maven\bin;C:\Users\Denis\AppData\Local\Microsoft\WindowsApps;;.]
+05-May-2017 19:05:17.219 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:05:17.273 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-May-2017 19:05:17.274 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:05:17.276 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-May-2017 19:05:17.276 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 471 ms
+05-May-2017 19:05:17.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-May-2017 19:05:17.292 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M20
+05-May-2017 19:05:17.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\docs]
+05-May-2017 19:05:17.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\docs] has finished in [171] ms
+05-May-2017 19:05:17.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\examples]
+05-May-2017 19:05:17.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\examples] has finished in [198] ms
+05-May-2017 19:05:17.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\host-manager]
+05-May-2017 19:05:17.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\host-manager] has finished in [17] ms
+05-May-2017 19:05:17.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\manager]
+05-May-2017 19:05:17.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\manager] has finished in [14] ms
+05-May-2017 19:05:17.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\ROOT]
+05-May-2017 19:05:17.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\ROOT] has finished in [11] ms
+05-May-2017 19:05:17.711 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:05:17.717 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:05:17.718 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 441 ms
+05-May-2017 19:06:27.810 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\calculator]
+05-May-2017 19:06:27.846 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\calculator] has finished in [36] ms
+05-May-2017 19:06:53.089 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:06:53.180 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:06:53.265 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-May-2017 19:06:53.315 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:06:53.318 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:06:53.320 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:06:53.322 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:09:47.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M20
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 12 2017 19:27:10 UTC
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+05-May-2017 19:09:47.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-May-2017 19:09:47.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:09:47.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:09:47.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Denis\workspace\calculator\tomcat\conf\logging.properties
+05-May-2017 19:09:47.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2017 19:09:47.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2017 19:09:47.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2017 19:09:47.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:09:47.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Denis\workspace\calculator\tomcat
+05-May-2017 19:09:47.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Denis\workspace\calculator\tomcat\temp
+05-May-2017 19:09:47.678 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Kingston SSD Toolbox;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Denis\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache\maven\bin;C:\Users\Denis\AppData\Local\Microsoft\WindowsApps;;.]
+05-May-2017 19:09:47.768 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:09:47.816 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-May-2017 19:09:47.818 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:09:47.819 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-May-2017 19:09:47.820 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 491 ms
+05-May-2017 19:09:47.837 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-May-2017 19:09:47.838 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M20
+05-May-2017 19:09:47.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\calculator]
+05-May-2017 19:09:48.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\calculator] has finished in [233] ms
+05-May-2017 19:09:48.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\docs]
+05-May-2017 19:09:48.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\docs] has finished in [16] ms
+05-May-2017 19:09:48.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\examples]
+05-May-2017 19:09:48.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\examples] has finished in [207] ms
+05-May-2017 19:09:48.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\host-manager]
+05-May-2017 19:09:48.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\host-manager] has finished in [16] ms
+05-May-2017 19:09:48.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\manager]
+05-May-2017 19:09:48.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\manager] has finished in [13] ms
+05-May-2017 19:09:48.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\ROOT]
+05-May-2017 19:09:48.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Denis\workspace\calculator\tomcat\webapps\ROOT] has finished in [11] ms
+05-May-2017 19:09:48.345 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+05-May-2017 19:09:48.351 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-May-2017 19:09:48.353 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 532 ms
+05-May-2017 19:16:54.046 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:[8005]]. Tomcat may not be running.
+05-May-2017 19:16:56.999 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:[8005]]. Tomcat may not be running.
