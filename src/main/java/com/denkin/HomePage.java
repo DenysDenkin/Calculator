@@ -60,54 +60,7 @@ public class HomePage extends WebPage {
 		final MyAjaxButton seven = new MyAjaxButton("seven", new Model<String>("7"), "7", resModel, inpModel, resultLabel, inputField);
 		final MyAjaxButton eight = new MyAjaxButton("eight", new Model<String>("8"), "8", resModel, inpModel, resultLabel, inputField);
 		final MyAjaxButton nine = new MyAjaxButton("nine", new Model<String>("9"), "9", resModel, inpModel, resultLabel, inputField);
-    /*    final AjaxButton plus1 = new AjaxButton("plus", new Model<String>("+")) {
 
-            private static final long serialVersionUID = 530608535790823587L;
-
-            @Override
-            protected void onSubmit(final AjaxRequestTarget target, final Form<?> form) {
-            	double res = Double.parseDouble(resModel.getObject());
-            	String changeS = inpModel.getObject();
-            	changeS = changeS.replaceAll(",", ".");
-            	System.out.println(changeS);
-            	double change = Double.parseDouble(changeS);
-            	resModel.setObject(""+(res+change));         	
-            	target.add(resultLabel);
-            }
-            
-        };*/
- /*       final AjaxButton minus = new AjaxButton("minus", new Model<String>("-")) {
-
-            private static final long serialVersionUID = 530608535790823587L;
-
-            @Override
-            protected void onSubmit(final AjaxRequestTarget target, final Form<?> form) {
-            	double res = Double.parseDouble(resModel.getObject());
-            	String changeS = inpModel.getObject();
-            	changeS = changeS.replaceAll(",", ".");
-            	System.out.println(changeS);
-            	double change = Double.parseDouble(changeS);
-            	resModel.setObject(""+(res-change));         	
-            	target.add(resultLabel);
-            }
-            
-        };*/
-   /*     final AjaxButton multiply = new AjaxButton("multiply", new Model<String>("*")) {
-
-            private static final long serialVersionUID = 530608535790823587L;
-
-            @Override
-            protected void onSubmit(final AjaxRequestTarget target, final Form<?> form) {
-            	double res = Double.parseDouble(resModel.getObject());
-            	String changeS = inpModel.getObject();
-            	changeS = changeS.replaceAll(",", ".");
-            	System.out.println(changeS);
-            	double change = Double.parseDouble(changeS);
-            	resModel.setObject(""+(res*change));         	
-            	target.add(resultLabel);
-            }
-            
-        };*/
         form.add(plus);
         form.add(minus);
         form.add(multiply);
@@ -128,7 +81,6 @@ public class HomePage extends WebPage {
         form.add(nine);
 
 		add(form);
-		// TODO Add your page's components here
 
     }
 	
