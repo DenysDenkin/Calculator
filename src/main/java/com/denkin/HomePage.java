@@ -31,7 +31,7 @@ public class HomePage extends WebPage {
 		final Model<String> inpModel = Model.of("0");
 		final TextField<String> inputField = new TextField<String>("inputField", inpModel);
 		inputField.setOutputMarkupId(true);
-		inputField.add(new AjaxFormComponentUpdatingBehavior("onchange") {
+		inputField.add(new AjaxFormComponentUpdatingBehavior("change") {
 			  protected void onUpdate(AjaxRequestTarget target) {
 			      inpModel.setObject(inputField.getValue());
 			  }
@@ -60,6 +60,12 @@ public class HomePage extends WebPage {
 		final MyAjaxButton seven = new MyAjaxButton("seven", new Model<String>("7"), "7", resModel, inpModel, resultLabel, inputField);
 		final MyAjaxButton eight = new MyAjaxButton("eight", new Model<String>("8"), "8", resModel, inpModel, resultLabel, inputField);
 		final MyAjaxButton nine = new MyAjaxButton("nine", new Model<String>("9"), "9", resModel, inpModel, resultLabel, inputField);
+		final MyAjaxButton sin = new MyAjaxButton("sin", new Model<String>("sin"), "sin", resModel, inpModel, resultLabel, inputField);
+		final MyAjaxButton cos = new MyAjaxButton("cos", new Model<String>("cos"), "cos", resModel, inpModel, resultLabel, inputField);
+		final MyAjaxButton tan = new MyAjaxButton("tan", new Model<String>("tan"), "tan", resModel, inpModel, resultLabel, inputField);
+		final MyAjaxButton root = new MyAjaxButton("root", new Model<String>("√"), "root", resModel, inpModel, resultLabel, inputField);
+		final MyAjaxButton log = new MyAjaxButton("log", new Model<String>("log"), "log", resModel, inpModel, resultLabel, inputField);
+		final MyAjaxButton sqr = new MyAjaxButton("sqr", new Model<String>("^2"), "sqr", resModel, inpModel, resultLabel, inputField);
 
         form.add(plus);
         form.add(minus);
@@ -79,6 +85,12 @@ public class HomePage extends WebPage {
         form.add(seven);
         form.add(eight);
         form.add(nine);
+        form.add(cos);
+        form.add(sin);
+        form.add(tan);
+        form.add(root);
+        form.add(log);
+        form.add(sqr);
 
 		add(form);
 

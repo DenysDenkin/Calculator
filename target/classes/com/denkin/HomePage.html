@@ -18,14 +18,20 @@
 		</div>
 		<div id="bd">
 		<span wicket:id="message"/><br>
-		<label wicket:id="resultLabel" style="font-size:30px"></label><br>
+		<label wicket:id="resultLabel" style="font-size:30px"></label><br> 
 		<input type="text" name="0" wicket:id="inputField" style="font-size:20px"><br>
 
 
 		<form wicket:id="form">
+			<input type="button" wicket:id="sin" class="myButton"/>
+			<input type="button" wicket:id="cos" class="myButton"/>
+			<input type="button" wicket:id="tan" class="myButton"/>
+			<input type="button" wicket:id="log" class="myButton"/>
+			<br>
 			<input type="button" wicket:id="reset" class="myButton"/>
 			<input type="button" wicket:id="delete" class="myButton"/>
-			<input type="button" wicket:id="divide" class="myButton"/>
+			<input type="button" wicket:id="sqr" class="myButton"/>
+			<input type="button" wicket:id="root" class="myButton"/>
 			<br>
 			<input type="button" wicket:id="seven" class="myButton"/>
 			<input type="button" wicket:id="eight" class="myButton"/>
@@ -35,7 +41,7 @@
 			<input type="button" wicket:id="four" class="myButton"/>
 			<input type="button" wicket:id="five" class="myButton"/>
 			<input type="button" wicket:id="six" class="myButton"/>
-			<input type="button" wicket:id="minus" class="myButton"/>
+			<input type="button" wicket:id="divide" class="myButton"/>			
 			<br>
 			<input type="button" wicket:id="one" class="myButton"/>
 			<input type="button" wicket:id="two" class="myButton"/>
@@ -45,6 +51,7 @@
 			<input type="button" wicket:id="changeSgn" class="myButton"/>
 			<input type="button" wicket:id="zero" class="myButton"/>
 			<input type="button" wicket:id="comma" class="myButton"/>
+			<input type="button" wicket:id="minus" class="myButton"/>
 		</form>
 		<br>
 		<p>	Current Wicket version: <wicket:container wicket:id="version">1.5-SNAPSHOT</wicket:container>.</p>

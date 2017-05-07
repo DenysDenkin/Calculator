@@ -40,7 +40,6 @@ public class MyAjaxButton extends AjaxButton{
 			try {
 				String changeS = src;
 				changeS = changeS.replaceAll(",", ".");
-				System.out.println(changeS);
 				change = Double.parseDouble(changeS);
 			}
 			catch (NumberFormatException e){
@@ -52,11 +51,18 @@ public class MyAjaxButton extends AjaxButton{
 			case "-" : targetModel.setObject(""+(res-change)); sourceModel.setObject("0"); break;
 			case "*" : targetModel.setObject(""+(res*change)); sourceModel.setObject("0"); break;
 			case "/" : targetModel.setObject(""+(res/change)); sourceModel.setObject("0"); break;
+			case "=" : ; break;
 			case "reset" : targetModel.setObject("0"); sourceModel.setObject("0"); break;
 			case "delete" : deleteSymbol(); break;
 			case "," : if(!src.contains(",")) sourceModel.setObject(src+","); break;
 			case "±" : if(!(trgt.charAt(0)=='-')) targetModel.setObject("-"+trgt);
 						else targetModel.setObject(trgt.substring(1,trgt.length())); break;
+			case "sin" : targetModel.setObject(""+Math.sin(res)); break;
+			case "cos" : targetModel.setObject(""+Math.cos(res)); break;
+			case "tan" : targetModel.setObject(""+Math.tan(res)); break;
+			case "sqr" : targetModel.setObject(""+Math.pow(res, 2)); break;
+			case "root" : targetModel.setObject(""+Math.sqrt(res)); break;
+			case "log" : targetModel.setObject(""+ Math.log(res)); break;
 			}    
 			target.add(sourceF);
 			target.add(resL);
